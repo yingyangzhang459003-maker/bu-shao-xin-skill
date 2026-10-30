@@ -1,0 +1,86 @@
+{
+  "_说明": "空模板。复制本文件为 family-XXX.json 后填写。字段定义见 references/data-schema.md。建档后必须同步更新 records/_index.json。",
+
+  "family_id": "family-XXX",
+  "created": "YYYY-MM-DD",
+  "updated": "YYYY-MM-DD",
+  "session_count": 0,
+  "status": "intake",
+  "_status_说明": "intake = 采集期未给方案；active = 有方案在跑；closed = 已结案。三个值都必须写，缺省按 intake 处理。",
+
+  "redlines": [],
+
+  "children": [
+    {
+      "child_id": "c1",
+      "nickname": "",
+      "age": 0,
+      "grade": "初三",
+      "gender": "男",
+      "personality": [],
+      "health": {
+        "sleep": "",
+        "medication": "",
+        "chronic": "",
+        "development": ""
+      },
+      "risk_flags": [],
+      "notes": ""
+    }
+  ],
+
+  "household": {
+    "caregivers": [],
+    "parental_consistency": "",
+    "grandparents_live_in": false,
+    "grandparents_interfere": "",
+    "family_time_daily": "",
+    "major_events": []
+  },
+
+  "presenting_problem": {
+    "primary_issue": "",
+    "onset": "",
+    "onset_pattern": "sudden | chronic",
+    "frequency": "",
+    "typical_scene": "",
+    "child_quote": "",
+    "parent_interpretation": ""
+  },
+
+  "attempts": [
+    {
+      "date": "",
+      "method": "",
+      "effect": "有效 | 无效 | 更糟 | 未知",
+      "child_reaction": "",
+      "conclusion": ""
+    }
+  ],
+
+  "parent": {
+    "main_worry": "",
+    "available_time": "",
+    "sustainability_days": 0,
+    "emotional_state": "",
+    "communication_status": ""
+  },
+
+  "sessions": [
+    {
+      "date": "YYYY-MM-DD",
+      "type": "intake | advice",
+      "trigger": "",
+      "judgment": "",
+      "actions_given": [],
+      "prediction": null,
+      "followup": { "date": null, "done": null, "effect": null, "blocked_at": null },
+      "changed_judgment": false
+    }
+  ],
+  "_sessions_说明": {
+    "type": "intake = 只采集未给方案；advice = 给了方案。缺省按 advice 处理",
+    "prediction": "给了方案就必须写，要带时间窗口和可观察信号。type 为 intake 时写 null——这是合法状态，不要为了过自检编一条假预判",
+    "followup": "下次对话回填：做了没 / 效果 / 卡在哪一步"
+  }
+}

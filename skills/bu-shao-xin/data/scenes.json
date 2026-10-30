@@ -1,0 +1,61 @@
+{
+ "meta": {
+  "name": "scenes（公开版 · 结构骨架）",
+  "schema_version": 2,
+  "note": "本文件只保留 10 个场景簇的分类骨架，用于让 skill 能正常寻址。家长原话（parent_quotes）与逐字稿（bili-corpus/）属他人原创内容，仓库不分发、也不得转载。缺了它们不影响给方案——第 5 步有学科共识兜底。",
+  "usage": "第 3 步匹配场景簇用。匹配到之后第 4 步会去找 parent_quotes，找不到就直接进第 5 步。",
+  "clusters_total": 10
+ },
+ "clusters": [
+  {
+   "id": "Q01",
+   "question": "沉迷手机/游戏，不写作业",
+   "parent_quotes": []
+  },
+  {
+   "id": "Q02",
+   "question": "作业磨蹭/不写作业",
+   "parent_quotes": []
+  },
+  {
+   "id": "Q03",
+   "question": "厌学/不想上学",
+   "parent_quotes": []
+  },
+  {
+   "id": "Q04",
+   "question": "休学/躺平/复学",
+   "parent_quotes": []
+  },
+  {
+   "id": "Q05",
+   "question": "青春期叛逆/顶嘴/情绪",
+   "parent_quotes": []
+  },
+  {
+   "id": "Q06",
+   "question": "学业方法/成绩/粗心",
+   "parent_quotes": []
+  },
+  {
+   "id": "Q07",
+   "question": "安全教育/交友风险",
+   "parent_quotes": []
+  },
+  {
+   "id": "Q08",
+   "question": "性教育/身体界限",
+   "parent_quotes": []
+  },
+  {
+   "id": "Q09",
+   "question": "父母自身/夫妻关系",
+   "parent_quotes": []
+  },
+  {
+   "id": "Q10",
+   "question": "沟通方法/说话方式",
+   "parent_quotes": []
+  }
+ ]
+}

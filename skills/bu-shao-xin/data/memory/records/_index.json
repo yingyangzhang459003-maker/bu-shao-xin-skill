@@ -1,0 +1,5 @@
+{
+  "updated": null,
+  "note": "定位索引。只存最小信息，细节在 records/{id}.json。每次建档或归档后必须更新。字段必须标准化：child_grade 只写『初三』这种，child_gender 只写『男/女』，不许带括号注释。",
+  "families": []
+}
